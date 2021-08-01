@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Loggit",
+    "slug": "loggit",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "default",
+    "backgroundColor": "#ffffff",
+    "primaryColor": "#F31051",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "usesIcloudStorage": true,
+      "userInterfaceStyle": "automatic",
+      "infoPlist": {
+        "UISupportsDocumentBrowser": true,
+        "UIFileSharingEnabled": true,
+        "LSSupportsOpeningDocumentsInPlace": true
+      },
+      "bundleIdentifier": "com.onbrn.loggit"
+    },
+    "android": {
+      "package": "com.onbrn.loggit",
+      "versionCode": 1,
+      "permissions": []
+    }
+  }
+}
