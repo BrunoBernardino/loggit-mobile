@@ -34,14 +34,6 @@ deploy:
 	node ./scripts/update-build-hash.js
 	expo publish
 
-.PHONY: build/ios
-build/ios:
-	expo build:ios -t archive
-
 .PHONY: build/android
 build/android:
-	expo build:android -t app-bundle
-
-.PHONY: upload/android
-upload/android:
-	expo upload:android
+	expo build:android -t apk
